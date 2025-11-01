@@ -18,6 +18,11 @@ export const metadata: Metadata = {
   title: "EcoForge Build | Sustainable Construction & Renewables",
   description:
     "EcoForge Build delivers integrated construction, solar, and wind solutions led by CEO Daren Adrian Laine to create resilient, low-carbon infrastructure.",
+  icons: {
+    icon: "/image/fav.png",
+    shortcut: "/image/fav.png",
+    apple: "/image/fav.png",
+  },
 };
 
 export default function RootLayout({
