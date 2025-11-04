@@ -30,16 +30,6 @@ const leadership = [
     role: "Chief Executive Officer",
     bio: "Daren guides EcoForge Build with two decades of experience in structural engineering and clean-tech finance. Under his leadership, the company has become a benchmark for climate-positive infrastructure.",
   },
-  {
-    name: "Maya Castillo",
-    role: "Chief Sustainability Officer",
-    bio: "Maya architected our circular construction framework and oversees lifecycle analytics to ensure every project exceeds sustainability goals.",
-  },
-  {
-    name: "Sanjay Patel",
-    role: "Head of Energy Systems",
-    bio: "Sanjay leads our multidisciplinary engineers delivering solar, wind, and storage arrays that adapt to complex terrain and grid requirements.",
-  },
 ];
 
 export default function About() {
@@ -134,12 +124,15 @@ export default function About() {
 
         <section className="rounded-3xl border border-slate-800 bg-slate-900/70 p-10 shadow-xl shadow-cyan-500/10">
           <h2 className="text-sm uppercase tracking-[0.4em] text-cyan-300">Leadership Team</h2>
-          <div className="mt-8 grid gap-6 sm:grid-cols-3">
+          <div className="mt-8 flex justify-center">
             {leadership.map((leader) => (
-              <article key={leader.name} className="flex flex-col rounded-2xl bg-slate-950/60 p-6 shadow-inner shadow-black/20">
-                <p className="text-lg font-semibold text-white">{leader.name}</p>
-                <p className="text-sm uppercase tracking-[0.2em] text-cyan-200">{leader.role}</p>
-                <p className="mt-4 text-sm text-slate-300">{leader.bio}</p>
+              <article
+                key={leader.name}
+                className="flex max-w-md flex-col rounded-2xl bg-slate-950/60 p-8 shadow-inner shadow-black/20"
+              >
+                <p className="text-xl font-semibold text-white">{leader.name}</p>
+                <p className="mt-2 text-sm uppercase tracking-[0.3em] text-cyan-200">{leader.role}</p>
+                <p className="mt-6 text-sm text-slate-300">{leader.bio}</p>
               </article>
             ))}
           </div>

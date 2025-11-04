@@ -34,8 +34,8 @@ export default function Footer() {
             <p className="text-sm font-semibold text-white">Contact</p>
             <ul className="mt-4 space-y-2 text-sm text-slate-300">
               <li>
-                <a className="transition hover:text-cyan-200" href="mailto:darenadrianlaine@ecoforgebuild.com">
-                  darenadrianlaine@ecoforgebuild.com
+                <a className="transition hover:text-cyan-200" href="mailto:darenadrian.laine@ecoforgebuild.com">
+                  darenadrian.laine@ecoforgebuild.com
                 </a>
               </li>
               <li>+1 (503) 310-8012</li>

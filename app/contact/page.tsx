@@ -14,8 +14,8 @@ export default function Contact() {
             <p className="text-lg leading-relaxed text-slate-200">
               Whether you&apos;re exploring a new build, retrofitting existing assets, or scaling renewable capacity, our team is ready
               to collaborate. Reach us directly at{" "}
-              <a className="text-cyan-300 underline decoration-cyan-400 underline-offset-4" href="mailto:darenadrianlaine@ecoforgebuild.com">
-                darenadrianlaine@ecoforgebuild.com
+              <a className="text-cyan-300 underline decoration-cyan-400 underline-offset-4" href="mailto:darenadrian.laine@ecoforgebuild.com">
+                darenadrian.laine@ecoforgebuild.com
               </a>{" "}
               or share details below to connect with Daren Adrian Laine and our project strategists.
             </p>
@@ -41,7 +41,7 @@ export default function Contact() {
           <h2 className="text-sm uppercase tracking-[0.4em] text-cyan-300">Project Intake Form</h2>
           <form
             className="mt-8 space-y-6"
-            action="mailto:darenadrianlaine@ecoforgebuild.com"
+            action="mailto:darenadrian.laine@ecoforgebuild.com"
             method="post"
             encType="text/plain"
           >
@@ -154,9 +154,9 @@ export default function Contact() {
                 <p className="text-sm font-semibold text-cyan-200">Email</p>
                 <a
                   className="block text-sm text-slate-200 break-words"
-                  href="mailto:darenadrianlaine@ecoforgebuild.com"
+                  href="mailto:darenadrian.laine@ecoforgebuild.com"
                 >
-                  darenadrianlaine@ecoforgebuild.com
+                  darenadrian.laine@ecoforgebuild.com
                 </a>
               </div>
             </div>
